@@ -1,6 +1,6 @@
-import { Button } from "@mui/material";
-import { Routes, Route, Navigate } from "react-router-dom";
-import { useAppThemeContext } from "../shared/context";
+import { Button } from '@mui/material';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import { useAppThemeContext } from '../shared/context';
 
 export const AppRoutes = () => {
   const { toggleTheme } = useAppThemeContext();
